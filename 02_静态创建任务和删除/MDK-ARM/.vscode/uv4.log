@@ -1,0 +1,57 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil_5\Core\ARM\ARMCC\Bin'
+Build target 'Temple'
+compiling queue.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Source\queue.c: 0 warnings, 1 error
+compiling FreeRTOS_Demo.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Core\Src\FreeRTOS_Demo.c: 0 warnings, 1 error
+compiling croutine.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Source\croutine.c: 0 warnings, 1 error
+compiling list.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Source\list.c: 0 warnings, 1 error
+compiling stream_buffer.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Source\stream_buffer.c: 0 warnings, 1 error
+compiling event_groups.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Source\event_groups.c: 0 warnings, 1 error
+compiling tasks.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Source\tasks.c: 0 warnings, 1 error
+compiling timers.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Source\timers.c: 0 warnings, 1 error
+compiling port.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Portable\ARM_CM3\port.c: 0 warnings, 1 error
+compiling heap_4.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Middle\FreeRTOS\Portable\MemMang\heap_4.c: 0 warnings, 1 error
+compiling stm32f1xx_it.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+../Core/Src/stm32f1xx_it.c: 0 warnings, 1 error
+compiling KEY.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Hardware\KEY.c: 0 warnings, 1 error
+compiling LED.c...
+../Middle/FreeRTOS/Include/FreeRTOS.h(353): error:  #35: #error directive: If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+          #error If configUSE_TIMERS is set to 1 then configTIMER_TASK_STACK_DEPTH must also be defined.
+..\Hardware\LED.c: 0 warnings, 1 error
+"Temple\Temple.axf" - 13 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02
